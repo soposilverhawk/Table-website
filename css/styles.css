@@ -223,3 +223,11 @@ header {
     text-align: center;
     font-size: 18px;
 }
+#load-more {
+    width: 289px;
+    height: 56px;
+    background-color: #F8F8F8;
+    margin: 70px 150%;
+    border-radius: 10px;
+    border: none;
+}
