@@ -6,9 +6,8 @@
 }
 .left-side-container-black {
     width: 16.7%;
-    height: 1080px;
+    height: 1150px;
     background-color: #222222;
-    /* add padding here and adjust the positions of the pictures */
 }
 .white-content-container {
     width: 83%;
@@ -71,7 +70,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-content: space-between;
-    height: 25%;
+    height: 30%;
+    margin-bottom: 60px;
 }
 .footer-note {
     margin: 0 30px;
@@ -95,7 +95,7 @@
     width: 170px;
 }
 .load {
-    margin: 20px 30px;
+    margin: 50px 30px;
     color: white;
 }
 header {
@@ -354,4 +354,10 @@ footer {
 }
 #footer-headers p:first-child {
     text-align: left;
+}
+#footer-social-media {
+    width: 112px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
 }
