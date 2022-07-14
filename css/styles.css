@@ -90,7 +90,6 @@
     align-items: center;
     justify-content: space-between;
 }
-/* fix the 1st and 2nd containers into one container */
 .person-name {
     width: 170px;
 }
