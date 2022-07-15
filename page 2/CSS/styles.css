@@ -126,6 +126,9 @@ header {
     border-radius: 10px;
     border: none;
 }
+#search-icon-mobile {
+    display: none;
+}
 #search-icon {
     position: absolute;
     top: 20px;
@@ -273,6 +276,7 @@ footer {
     text-align: left;
 }
 #footer-social-media {
+    margin-bottom: 40px;
     align-items: center;
     margin-left: 7%;
     width: 112px;
@@ -285,6 +289,9 @@ footer {
 }
 .footer-ul-flex a, .footer-ul-flex-2 a, .footer-ul-flex-3 a, .footer-ul-flex-4 a {
     color: black;
+}
+.mobile-nav {
+    display: none;
 }
 .footer-ul-flex a:hover, .footer-ul-flex-2 a:hover, #brands:hover, #Avertise-with-us:hover, .footer-ul-flex-3 a:hover, .footer-ul-flex-4 a:hover, #design-assets:hover, #shop-creative-market:hover {
     text-decoration: underline;

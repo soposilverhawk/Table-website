@@ -366,6 +366,7 @@ footer {
     text-align: left;
 }
 #footer-social-media {
+    margin-bottom: 40px;
     align-items: center;
     width: 112px;
     height: 24px;
