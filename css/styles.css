@@ -46,9 +46,12 @@
     margin: auto 30px;
 }
 .flex-nav:first-child {
-    background-color: #FF2288;
     height: 60px;
     border-radius: 10px;
+}
+ul a{
+    color: white;
+    text-decoration: none;
 }
 .flex-nav {
     display: flex;
@@ -72,6 +75,9 @@
     align-content: space-between;
     height: 30%;
     margin-bottom: 60px;
+}
+.left-side-footer-container a {
+    color: white;
 }
 .footer-note {
     margin: 0 30px;
@@ -355,8 +361,18 @@ footer {
     text-align: left;
 }
 #footer-social-media {
+    align-items: center;
     width: 112px;
     height: 24px;
     display: flex;
     justify-content: space-between;
+}
+.flex-nav:hover {
+    background-color: #FF2288;
+}
+.footer-ul-flex a, .footer-ul-flex-2 a, .footer-ul-flex-3 a, .footer-ul-flex-4 a {
+    color: black;
+}
+.footer-ul-flex a:hover, .footer-ul-flex-2 a:hover, #brands:hover, #Avertise-with-us:hover, .footer-ul-flex-3 a:hover, .footer-ul-flex-4 a:hover, #design-assets:hover, #shop-creative-market:hover {
+    text-decoration: underline;
 }

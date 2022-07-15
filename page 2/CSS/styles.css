@@ -6,7 +6,7 @@
 }
 .left-side-container-black {
     width: 16.7%;
-    height: 1150px;
+    height: 950px;
     background-color: #222222;
 }
 .white-content-container {
@@ -39,6 +39,10 @@
     width: 80%;
     color: white;
 }
+ul a{
+    color: white;
+    text-decoration: none;
+}
 .flex-nav li {
     width: 100%;
 }
@@ -46,7 +50,6 @@
     margin: auto 30px;
 }
 .flex-nav:first-child {
-    background-color: #FF2288;
     height: 60px;
     border-radius: 10px;
 }
@@ -72,6 +75,9 @@
     align-content: space-between;
     height: 30%;
     margin-bottom: 60px;
+}
+.left-side-footer-container a {
+    color: white;
 }
 .footer-note {
     margin: 0 30px;
@@ -179,7 +185,7 @@ header {
     justify-content: space-between;
     border-bottom: 1px solid #E7E7E7;
 }
-.section-1 div ul li {
+.section-1-main-ul li {
     margin-bottom: 32px;
     width: 150px;
     text-align: left;
@@ -203,4 +209,85 @@ header {
 }
 .section-1-secondary-ul-pink {
     color: #FF2288;
+}
+footer {
+    animation-delay: 10s;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1230px;
+    height: 398px;
+    margin-bottom: 100px;
+}
+#footer-headers {
+    display: flex;
+    justify-content: space-between;
+    width: 101%;
+}
+#footer-uls {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-ul-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 165px;
+    height: 301px;
+    margin-top: 36px;
+}
+.footer-ul-flex-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 101px;
+    margin-top: 36px;
+}
+#brands, #design-assets {
+    margin-top: 41px;
+}
+#Avertise-with-us, #shop-creative-market {
+    margin-top: 36px;
+}
+.footer-ul-flex-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 341px;
+    margin-top: 36px;
+}
+.footer-ul-flex-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 181px;
+    margin-top: 36px;
+}
+#footer-headers p {
+    width: 19%;
+    text-align: center;
+}
+#footer-headers p:first-child {
+    text-align: left;
+}
+#footer-social-media {
+    align-items: center;
+    margin-left: 11%;
+    width: 112px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-nav:hover {
+    background-color: #FF2288;
+}
+.footer-ul-flex a, .footer-ul-flex-2 a, .footer-ul-flex-3 a, .footer-ul-flex-4 a {
+    color: black;
+}
+.footer-ul-flex a:hover, .footer-ul-flex-2 a:hover, #brands:hover, #Avertise-with-us:hover, .footer-ul-flex-3 a:hover, .footer-ul-flex-4 a:hover, #design-assets:hover, #shop-creative-market:hover {
+    text-decoration: underline;
 }
