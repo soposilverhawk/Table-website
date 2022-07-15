@@ -41,6 +41,8 @@
 }
 .flex-nav li {
     width: 100%;
+    font-family: 'Roboto Slab';
+    font-weight: medium;
 }
 .nav-icon {
     margin: auto 30px;
@@ -375,4 +377,29 @@ footer {
 }
 .footer-ul-flex a:hover, .footer-ul-flex-2 a:hover, #brands:hover, #Avertise-with-us:hover, .footer-ul-flex-3 a:hover, .footer-ul-flex-4 a:hover, #design-assets:hover, #shop-creative-market:hover {
     text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Regular.eot');
+    src: url('RobotoSlab-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RobotoSlab-Regular.woff2') format('woff2'),
+        url('RobotoSlab-Regular.woff') format('woff'),
+        url('RobotoSlab-Regular.ttf') format('truetype'),
+        url('RobotoSlab-Regular.svg#RobotoSlab-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Medium.eot');
+    src: url('RobotoSlab-Medium.eot?#iefix') format('embedded-opentype'),
+        url('RobotoSlab-Medium.woff2') format('woff2'),
+        url('RobotoSlab-Medium.woff') format('woff'),
+        url('RobotoSlab-Medium.ttf') format('truetype'),
+        url('RobotoSlab-Medium.svg#RobotoSlab-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
