@@ -493,3 +493,17 @@ footer {
       justify-content: space-between;
     }
 }
+.notification-icon {
+   animation: dim 3s infinite ease-in;
+}
+@keyframes dim {
+    0% {
+        background-color: #FF2288;
+    }
+    50% {
+        background-color: white;
+    }
+    100% {
+        background-color: #FF2288;
+    }
+}
