@@ -198,6 +198,9 @@ header {
     font-size: 16px;
     color: gray;
 }
+.section-1-secondary-ul li, .section-1-secondary-ul-pink li, .section-1-secondary-ul-4 li {
+    margin-bottom: 32px;
+}
 .section-1-secondary-ul-4 {
     font-size: 16px;
     color: gray;
@@ -300,7 +303,19 @@ footer {
     background-color: #FF2288;
     border-radius: 20px;
 }
-
+#footer-social-media-phone {
+    margin: 0 auto;
+    height: 15%;
+    width: 50%;
+    display: none;
+}
+#footer-and-social-media-phone {
+    display: none;
+    margin-left: -42px;
+    width: 121%;
+    height: 5%;
+    background-color: #222222;
+}
 @font-face {
     font-family: 'Roboto Slab';
     src: url('RobotoSlab-Regular.eot');
@@ -324,4 +339,76 @@ footer {
     font-weight: 500;
     font-style: normal;
     font-display: swap;
+}
+@media (max-width: 480px) {
+    .content-container {
+        max-width: 480px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .left-side-container-black {
+        display: none;
+    }
+    .mobile-nav {
+        margin-left: -42px;
+        display: block;
+        width: 121%;
+        height: 2%;
+        background-color: #222222;;
+        display: flex;
+        align-items: center;
+    }
+    header {
+        margin: 0 auto;
+        margin-left: -26px;
+        width: 105%;
+    }
+    .header-right-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .filters-container-box {
+        margin-right: -15%;
+    }
+    .section-1-main-ul, .section-1-secondary-ul {
+        margin-right: 5px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 62px;
+    }
+    .section-1-secondary-ul-4, .section-1-secondary-ul-pink {
+        display: flex;
+        flex-direction: column;
+    }
+    #desktop, #footer-social-media,  .search-input {
+        display: none;
+    }
+    #footer-and-social-media-phone {
+       display: block;
+    }
+    #footer-headers {
+        width: 75%;
+        color: white;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        height: 65%;
+    }
+    footer {
+        display: none;
+    }
+    #footer-headers p {
+        margin: 0 5px;
+    }
+    #insta-logo {
+        width: 34px;
+        height: 34px;
+    }
+    #footer-social-media-phone {
+      display: block;
+      display: flex;
+      justify-content: space-between;
+    }
 }
