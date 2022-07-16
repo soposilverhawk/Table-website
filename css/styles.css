@@ -449,7 +449,7 @@ footer {
     #footer-and-social-media-phone {
        display: block;
     }
-    #footer-headers {
+    #footer-headers-mobile {
         width: 75%;
         color: white;
         display: flex;
@@ -457,8 +457,9 @@ footer {
         margin: 0 auto;
         height: 65%;
     }
-    #footer-headers p {
-        margin: 0 5px;
+    #footer-headers-mobile p {
+        margin: 0 10px;
+        text-align: center;
     }
     #insta-logo {
         width: 34px;
@@ -472,6 +473,9 @@ footer {
 }
 .notification-icon {
    animation: dim 3s infinite ease-in;
+}
+.section-1-ul li:hover {
+    background-color: #F2F2F2;
 }
 @keyframes dim {
     0% {
